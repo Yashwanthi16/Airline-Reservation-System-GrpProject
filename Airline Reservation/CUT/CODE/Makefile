@@ -9,4 +9,4 @@ ticket_alloc.o: ./src/ticket_alloc.c
 project.o: ./src/project.c
 	gcc -g -o ./obj/project.o ./src/project.c -c
 clean:
-	rm *.exe *.o
+	rm ./obj/*.exe ./obj/*.o
